@@ -25,10 +25,22 @@ img {
 }
 
 button {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 100%;
-  width: 30px;
-  height: 30px;
+  width: 80px;
+  height: 80px;
+  font-size: 20px;
   border: none;
   outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }

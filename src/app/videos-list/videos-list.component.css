@@ -19,4 +19,5 @@ li {
   padding: 20px;
   background-color: #f6f6f6;
   margin: 10px;
+  position: relative;
 }

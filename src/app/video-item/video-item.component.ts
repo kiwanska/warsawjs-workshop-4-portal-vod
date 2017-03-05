@@ -23,8 +23,7 @@ export class VideoItemComponent implements OnInit {
   }
 
   onClickHandler(event: MouseEvent) {
-    console.log('click', event);
-    this.watchVideo.emit(this.video);
+    this.watchVideo.emit(this.video.source);
   }
 
   changeLiked() {

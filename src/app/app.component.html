@@ -1,6 +1,9 @@
+<app-modal [visible]="modalVisible" (click)="closeModal()">
+    <video [src]="videoSource" controls autoplay></video>
+</app-modal>
 <app-header></app-header>
 <h1>
   {{title}}
 </h1>
-<app-videos-list></app-videos-list>
+<app-videos-list (watchVideo)="onWatchVideo($event)"></app-videos-list>
 <app-footer></app-footer>
