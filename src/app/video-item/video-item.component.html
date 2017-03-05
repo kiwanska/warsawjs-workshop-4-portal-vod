@@ -1,0 +1,13 @@
+<h2>
+  {{video.title}}
+  <span (click)="changeLiked()">
+    <b *ngIf="video.liked">&#9829;</b><b *ngIf="!video.liked">&#9825;</b>
+  </span>
+</h2>
+<span class="stars" *ngFor="let star of videoRating">
+  <b *ngIf="star">&#9733;</b>
+</span>
+<img [src]=video.image>
+<p>{{video.description}}</p>
+<button (click)="onClickHandler($event)" >&#9654;</button>
+<!--video.source-->

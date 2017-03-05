@@ -1,0 +1,22 @@
+videos-list {
+  margin: 40px 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 57vh;
+  overflow: scroll;
+}
+
+li {
+  width: 30%;
+  min-width: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #f6f6f6;
+  margin: 10px;
+}
